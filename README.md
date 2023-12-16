@@ -41,6 +41,6 @@ The corpus includes both CSV and plain text files. The CSV file contains the fol
 - Named entities: Specific named objects mentioned in the text identified by spaCy library.
 - NE words: Words identified as named entities within the text.
 ## Files
-- Corpus: women_speech folder contains all the plain texts of speech transcripts. women_speech contains basic information of each speech.
+- Corpus: women_speech folder contains all the plain texts of speech transcripts. women_speech.csv contains basic information of each speech.
 - Codes (Jupyter Notebook): corpus_collecting.ipynb records the corpus collecting, processing, cleaning process. women_speech.ipynb records the analysis and annotations of the corpus.
 - women_speech_annotated.csv: file with all corpus data and annotations.  
