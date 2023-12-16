@@ -31,7 +31,7 @@ The corpus includes both CSV and plain text files. The CSV file contains the fol
 ### Quality Check
 1. Data collection process involves the selection of the most famous speeches by women in the 20th century on the American Rhetoric website. The criteria may be subjective and include biases of individual researchers and institutions.
 2. Data Cleaning and Preprocessing aims to enhance the accuracy and quality of the data.
-3. Corpus Size is small. It may not encompass all significant speeches by women during 20th century. Also, there is needs for considering various political parties, races, and ethnicities to provide a more comprehensive representation.
+3. Corpus Size is small. It may not encompass all significant speeches by women during 20th century. Also, there is a need for considering various political parties, races, and ethnicities to provide a more comprehensive representation.
 ## Output CSV File with Annotations
 - Doc: Document or text file processed by the spaCy library.
 - Tokens: Individual words or text units.
@@ -40,3 +40,7 @@ The corpus includes both CSV and plain text files. The CSV file contains the fol
 - Proper nouns: Names of specific people, places, organizations, etc.
 - Named entities: Specific named objects mentioned in the text identified by spaCy library.
 - NE words: Words identified as named entities within the text.
+## Files
+- Corpus: women_speech folder contains all the plain texts of speech transcripts. women_speech contains basic information of each speech.
+- Codes (Jupyter Notebook): corpus_collecting.ipynb records the corpus collecting, processing, cleaning process. women_speech.ipynb records the analysis and annotations of the corpus.
+- women_speech_annotated.csv: file with all corpus data and annotations.  
