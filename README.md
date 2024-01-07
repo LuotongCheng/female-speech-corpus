@@ -8,7 +8,8 @@ Female American political speeches of the 20th century have played a crucial rol
 - What role did these speeches play in advancing women's rights and influencing societal change?
 ## Documentation
 ###  Corpus Description
-The corpus consists of data collected on the most significant female American political speeches of the 20th century. The data was collected through web scraping from the [American Rhetoric website](https://www.americanrhetoric.com/top100speechesfemales.htm) and is stored in both CSV and plain text formats.
+The corpus consists of data collected on the most significant female American political speeches of the 20th century. The data was collected through web scraping from the [American Rhetoric website](https://www.americanrhetoric.com/top100speechesfemales.htm) and is stored in CSV formats.
+According to the [copyright policy](https://www.americanrhetoric.com/copyrightinformation.htm), some artifacts on the website are in the public domain and can be used freely by the public. These artifacts include certain rhetorical artifacts found in the "Top 100 Speeches" where the data of the corpus has been collected from. 
 ###  Target Audience and Intended Use
 The target audience for this corpus is students, researchers, historians, linguists, cultural analysts, and the general public interested in studying female American political speeches. The corpus can be used for various purposes such as linguistic analysis, gender studies, political discourse analysis, etc.
 ###  Text Selection Criteria
