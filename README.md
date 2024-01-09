@@ -18,13 +18,13 @@ The selection of speeches for this corpus was based on "THE TOP 100 SPEECHES," w
 1. Manually searching for the most famous speeches by women in the 20th century on the American Rhetoric website.
 2. Creating a dataframe containing the speaker's name and the corresponding link to their speech transcript.
 3. Using web scraping techniques to collect the speech transcripts of each link.
-4. Saving the transcripts as plain text files.
+4. Saving the transcripts and metadata of the speeches in a CSV file.
 ###  Cleaning and Preprocessing Steps
 During the web scraping process, the transcript texts were almost cleaned by removing white spaces, newline characters (\n), tab characters (\t), and carriage return characters (\r). The cleaned text was then joined into a single string for further processing.
 ###  Annotations and Tools Used
-The corpus includes annotations such as tokens, lemma, part-of-speech (POS) tags, proper nouns, named entities, and named entity words (NE words). The tools used for these annotations are pandas and spaCy.
+The corpus includes annotations such as tokens, lemma, part-of-speech (POS) tags, proper nouns, nouns, adjectives, named entities, and named entity words (NE words). The tools used for these annotations are pandas and spaCy.
 ###  Format of Files in the Corpus
-The corpus includes both CSV and plain text files. The CSV file contains the following columns:
+The corpus includes a CSV file that contains the following variables:
 - Title: Title of the speech
 - Year: Year of the speech in standard year format
 - Speaker: Name of the speaker
@@ -39,9 +39,11 @@ The corpus includes both CSV and plain text files. The CSV file contains the fol
 - Lemmas: Base or normalized forms of words.
 - POS: Part-of-speech tags indicating grammatical category.
 - Proper nouns: Names of specific people, places, organizations, etc.
+- NOUN: Nouns used in speeches.
+- Adjectives: Adjectives used in speeches. 
 - Named entities: Specific named objects mentioned in the text identified by spaCy library.
 - NE words: Words identified as named entities within the text.
 ## Files
-- Corpus: women_speech folder contains all the plain texts of speech transcripts. women_speech.csv contains basic information of each speech.
+- CSV file: women_speech.csv contains basic information of each speech.
 - Codes (Jupyter Notebook): corpus_collecting.ipynb records the corpus collecting, processing, cleaning process. women_speech.ipynb records the analysis and annotations of the corpus.
 - women_speech_annotated.csv: file with all corpus data and annotations.  
